@@ -1,0 +1,49 @@
+<aiml version = "2.0" encoding = "UTF-8">
+
+
+
+
+    <category>
+        <pattern>HELLO *</pattern>
+        <template>
+            Well, hello there!
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT ARE YOU</pattern>
+        <template>
+            I'm a bot, and I'm silly!
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT DO YOU DO</pattern>
+        <template>
+            I'm here to annoy you!
+        </template>
+    </category>
+
+    <!-- New categories for additional patterns -->
+    <category>
+        <pattern>HI</pattern>
+        <template>
+            Hey, how's it going?
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOW ARE YOU</pattern>
+        <template>
+            I'm doing great, thanks for asking!
+        </template>
+    </category>
+
+    <category>
+        <pattern>BYE</pattern>
+        <template>
+            Goodbye! Come back soon.
+        </template>
+    </category>
+
+</aiml>
